@@ -32,7 +32,7 @@ For a quick review, the highest-priority screenshots are:
 | `evidence/E30_bug-report-transcript.png` | AgentCore multi-turn bug report and real tool invocation |
 | `evidence/E33_dynamodb-chatbot-ticket-details.png` | Matching chatbot-created DynamoDB ticket |
 | `evidence/E50_E51_eval-summary-distribution.png` | Bedrock Evaluation correctness 1.00 |
-| `evidence/E52_eval-per-prompt-results.png` | All six evaluation prompts scored 1.00 |
+| `evidence/E52_per-prompt-results.png` | All six evaluation prompts scored 1.00 |
 | `evidence/E40_architecture-diagram.png` | AgentCore runtime architecture |
 
 ---
