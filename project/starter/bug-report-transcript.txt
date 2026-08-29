@@ -1,0 +1,39 @@
+Customer Support Chatbot — Successful Bug Report Transcript
+
+Customer:
+I found a technical bug on the website.
+
+Assistant:
+Please describe the issue you're experiencing so I can assist you better.
+
+Customer:
+Description: The checkout page crashes after I click Pay.
+
+Assistant:
+Thank you for the description. Please provide the steps to reproduce the issue.
+
+Customer:
+Steps to reproduce: Add an item to the cart, go to checkout, then click Pay.
+
+Assistant:
+Thank you. Please provide the environment details, such as the browser, operating system, or device you are using.
+
+Customer:
+Environment: Chrome 120 on Windows 11
+
+Assistant development stream:
+[streamed <thinking> content visible]
+
+[tool call] bugreports___create_bug_report
+
+Assistant:
+Thank you for reporting the issue. We have created a bug report with the ticket ID 01de0487-2147-4ff8-a964-ca7134df4b3b. Our team will investigate the problem.
+
+Verified DynamoDB ticket ID:
+01de0487-2147-4ff8-a964-ca7134df4b3b
+
+Verification:
+The same ticket ID was found in the bug-report-tool-stack-bug-reports DynamoDB table with status OPEN and the expected description, stepsToReproduce, and environment values.
+
+Evidence reference:
+The terminal screenshot remains the authoritative visual record of the streamed interaction and tool invocation.

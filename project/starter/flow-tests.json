@@ -1,0 +1,24 @@
+{
+    "tests": [
+      {
+        "id": "flow_bug_report",
+        "prompt": "The checkout page crashes whenever I click Pay.",
+        "expected": "Classifies as BUG_REPORT, routes through BugReportPrompt, and requests missing bug-report information."
+      },
+      {
+        "id": "flow_covered_faq",
+        "prompt": "How long do I have to return an item?",
+        "expected": "Classifies as PLATFORM_QUESTION, routes through FAQPrompt, and answers that most items can be returned within 30 days of delivery subject to the documented conditions."
+      },
+      {
+        "id": "flow_uncovered_faq",
+        "prompt": "Do you offer a student discount?",
+        "expected": "Classifies as PLATFORM_QUESTION, routes through FAQPrompt, does not invent a student-discount policy, and directs the customer to documented support at 1-800-555-0147."
+      },
+      {
+        "id": "flow_other_request",
+        "prompt": "I'd like to speak to a real person.",
+        "expected": "Classifies as OTHER, follows the default HumanHandoffPrompt route, and directs the customer to 1-800-555-0147."
+      }
+    ]
+  }

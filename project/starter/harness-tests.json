@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "id": "t1_bug_report_partial",
+      "prompt": "I found a technical bug on the website.",
+      "expected": "Recognizes that the customer is reporting a technical bug, asks for the missing bug details, and does not claim that a ticket has already been created."
+    },
+    {
+      "id": "t2_faq_return_window",
+      "prompt": "How long do I have to send an item back?",
+      "expected": "Answers from the FAQ that most items can be returned within 30 days of delivery when unused and in original packaging, subject to the stated defective-item exception."
+    },
+    {
+      "id": "t3_faq_guest_checkout",
+      "prompt": "Do I need an account to place an order?",
+      "expected": "Answers from the FAQ that an account is not required and the customer can check out as a guest. May mention that an account enables order tracking, saved addresses, and faster future checkout."
+    },
+    {
+      "id": "t4_faq_missing_confirmation",
+      "prompt": "I didn't receive my order confirmation email. What should I do?",
+      "expected": "Answers from the FAQ by telling the customer to check spam or junk, verify the email address used at checkout, and contact support if the confirmation is still missing after 30 minutes."
+    },
+    {
+      "id": "t5_unsupported_student_discount",
+      "prompt": "Do you offer a student discount?",
+      "expected": "Does not invent a student discount. Directs the customer to human support using the support contact information provided by the FAQ."
+    },
+    {
+      "id": "t6_explicit_human_handoff",
+      "prompt": "I'd like to speak to a real person.",
+      "expected": "Politely directs the customer to human support and provides the customer support phone number from the FAQ. Does not call the bug-report tool."
+    }
+  ]
+}

@@ -107,7 +107,7 @@ Sign in and go to Account Settings to update your details. If an order is alread
 Contact support from the email linked to your account. We’ll verify your request and process deletion in line with legal/recordkeeping requirements.
 
 29) How can I contact customer support?
-Use the help/contact form on our site (recommended) or reply to any order email. Include your order number for faster help.
+Use the help/contact form on our site (recommended), reply to any order email, or call our customer support line at 1-800-555-0147. Include your order number for faster help.
 
 30) What are your support hours and response times?
 Support is available Monday–Friday (excluding holidays). We typically respond within 1–2 business days; urgent shipping/return issues are prioritized.
