@@ -630,7 +630,7 @@ The submission does not claim that the AgentCore evaluation JSONL was generated 
 - `output_eval_dataset.jsonl`
 - `OBSERVATIONS.md`
 - `evidence/E50_E51_eval-summary-distribution.png`
-- `evidence/E52_eval-per-prompt-results.png`
+- `evidence/E52_per-prompt-results.png`
 - Flow response and trace screenshots `F30` through `F33`
 
 ---
