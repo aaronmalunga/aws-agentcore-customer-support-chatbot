@@ -614,7 +614,7 @@ Shows the completed Bedrock Evaluation job with:
 
 **File:**
 
-`evidence/E52_eval-per-prompt-results.png`
+`evidence/E52_per-prompt-results.png`
 
 Shows all six evaluation prompts individually.
 
